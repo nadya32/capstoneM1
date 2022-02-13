@@ -134,6 +134,7 @@ def meminjamBuku():
                                     if (save2=='Y'):
                                         listBuku[i][p]= dataBaru
                                         print('Data TerUpdate')
+                                        meminjamBuku()
                                     elif (save2 =='N'):
                                         print('Data Tidak TerUpdate')
                                         meminjamBuku()
